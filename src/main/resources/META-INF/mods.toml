@@ -1,0 +1,51 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+#issueTrackerURL="http://my.issue.tracker/" #optional
+
+[[mods]] #mandatory
+
+modId="neolithia" #mandatory
+
+version="1.16.1-1.0.0" #mandatory
+
+displayName="Neolithia" #mandatory
+
+#updateJSONURL="http://myurl.me/" #optional
+
+#displayURL="http://example.com/" #optional
+
+#logoFile="furnaces.png" #optional
+
+credits="" #optional
+
+authors="Jaydizzle514" #optional
+
+description='''
+nothing
+'''
+
+[[dependencies.examplemod]] #optional
+
+    modId="forge" #mandatory
+
+    mandatory=true #mandatory
+
+    versionRange="[31,)" #mandatory
+
+    ordering="NONE"
+
+    side="BOTH"
+
+[[dependencies.examplemod]]
+
+    modId="minecraft"
+
+    mandatory=true
+
+    versionRange="[1.16.1-1.0.0]"
+
+    ordering="NONE"
+
+    side="BOTH"
